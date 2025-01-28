@@ -1,0 +1,408 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    height:150px;
+    width:100%;
+    padding-top:40px;
+    box-sizing: border-box;
+}
+.nav{
+    height:80px;
+    width:350px;
+    margin-left:35%;
+    transition-duration:3s;
+}
+.nav h1{
+    font-size:60px;
+}
+.nav:hover{
+    transform: translate(150px);
+    transition-duration:3s;
+}
+.list{
+    height:70px;
+    width:100%;
+}
+.list1{
+    height:60px;
+    width:950px;
+    margin-left:300px;
+    color: rgb(38, 38, 155);
+}
+.list2 li{
+    list-style: none;
+    font-size:23px;
+    float:left;
+    margin-left:70px;
+    transition-duration:2s;
+}
+.list2 li:hover{
+    transform: scale(1.2);
+    transition-duration:2s;
+}
+.main{
+    height:400px;
+    width:100%;
+}
+.main1{
+    height:100%;
+    width:50%;
+    float: left;
+}
+.main2{
+    height:250px;
+    width:350px;
+    margin:90px auto;
+    overflow: hidden;
+}
+.main2 img{
+    height:100%;
+    width:100%;
+    transition-duration:2s;
+}
+.main2 img:hover{
+    transform: scale(1.5);
+    transition-duration:2s;
+}
+.main3{
+    height:90%;
+    width:80%;
+    margin-top:40px;
+    margin-left:70px;
+    transition-duration:3s;
+}
+.main3 p{
+    line-height:21px;
+}
+.main3:hover{
+    transform: skewx(20deg);
+    transition-duration:3s;
+}
+.products{
+    height:50px;
+    width:100%;
+}
+.pro{
+    height:50px;
+    width:250px;
+    margin-left:520px;
+    font-size:20px;
+}
+.cards{
+    height:50vh;
+    width:95%;
+}
+.card{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    margin-left:80px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transform: skewY(-6deg);
+    transition-duration:2s;
+    background-image: url(./images/im1.jpg);
+    background-size:100% 100%;
+}
+.card:hover{
+    transform: skewY(0deg);
+    box-shadow: 0px 0px 10px 12px red;
+    transition-duration:2s;
+}
+.card1{
+    background-image: url(./images/im2.jpg);
+    background-size:100% 100%;
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    margin-left:90px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transform: skewY(-10deg);
+    transition-duration:2s;
+}
+.card1:hover{
+    transform: skewY(0deg);
+    box-shadow: 0px 0px 10px 12px red;
+    transition-duration:2s;
+}
+.card2{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    margin-left:90px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    transform:rotate(-20deg);
+    background-image: url(./images/im3.jpg);
+    background-size:100% 100%;
+}
+.card2:hover{
+    transform:rotate(0deg);
+    box-shadow:0px 0px 10px 12px red;
+    transition-duration:2s;
+}
+.card3{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    border-radius:10px;
+    border:1px solid black;
+    margin-left:90px;
+    margin-top:60px;
+    transition-duration:2s;
+    transform: rotate(20deg);
+    background-image: url(./images/im4.jpg);
+    background-size:100% 100%;
+}
+.card3:hover{
+  transform: rotate(0deg);
+  box-shadow:0px 0px 10px 12px red;
+  transition-duration:2s;
+}
+.cardss{
+    height:50vh;
+    width:95%;
+    margin-top:20px;
+}
+.card4{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    margin-left:80px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    background-image: url(./images/im5.jpg);
+    background-size:100% 100%;
+}
+.card4:hover{
+    transform: scale(1.1);
+    transition-duration:2s;
+    box-shadow:0px 0px 10px 12px red;
+}
+.card5{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    margin-left:90px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    background-image: url(./images/im6.jpg);
+    background-size:100% 100%;
+}
+.card5:hover{
+    transform: scale(.8);
+    transition-duration:2s;
+    box-shadow: 0px 0px 10px 12px red;
+}
+.card6{
+    height:42%;
+    width:10%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    margin-left:125px;
+    margin-top:150px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:3s;
+    background-image: url(./images/im7.jpg);
+    background-size:100% 100%;
+}
+.card6:hover{
+    transform: scale(1.9);
+    transition-duration:3s;
+    box-shadow:0px 0px 10px 12px red;
+}
+.card7{
+    height:85%;
+    width:20%;
+    float: left;
+    box-shadow:0px 0px 10px 12px gray;
+    border-radius:10px;
+    border:1px solid black;
+    margin-left:125px;
+    margin-top:50px;
+    transition-duration:2s;
+    background-image: url(./images/im8.jpg);
+    background-size:100% 100%;
+}
+.card7:hover{
+    transform: scale(0.9);
+    transition-duration:2s;
+    box-shadow:0px 0px 10px 12px red;
+}
+.cheif{
+    height:150px;
+    width:100%;
+    padding-top:70px;
+    box-sizing: border-box;
+}
+.che{
+    height:70px;
+    width: 300px;
+    margin-left:500px;
+}
+.che h1{
+    font-size:40px;
+}
+.card8{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    margin-left:90px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    background-image: url(./images/chef1.jpg);
+    background-size:100% 100%;
+}
+.card8:hover{
+    transform: skewx(-10deg);
+    box-shadow: 5px -5px 10px 12px blue;
+    transition-duration:2s;
+}
+.card9{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    margin-left:100px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transform: skewY(-4deg);
+    transition-duration:2s;
+    background-image: url(./images/chef2.jpg);
+    background-size:100% 100%;
+}
+.card9:hover{
+    transform:rotate(-8deg);
+    box-shadow: 5px -5px 10px 12px blue;
+    transition-duration:2s;
+}
+.card10{
+    height:40%;
+    width:18%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    margin-left:100px;
+    margin-top:120px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    background-image: url(./images/chef3.jpg);
+    background-size:100% 100%;
+}
+.card10:hover{
+    transform:scaleY(2);
+    box-shadow:5px -5px 10px 12px blue;
+    transition-duration:2s;
+}
+.card11{
+    height:80%;
+    width:12%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    border-radius:10px;
+    border:1px solid black;
+    margin-left:120px;
+    margin-top:60px;
+    transition-duration:2s;
+    background-image: url(./images/chef4.jpg);
+    background-size:100% 100%;
+}
+.card11:hover{
+  transform:scaleX(1.5);
+  box-shadow:5px -5px 10px 12px blue;
+  transition-duration:2s;
+}
+.card12{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    margin-left:80px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    background-image: url(./images/chef5.jpg);
+    background-size:100% 100%;
+}
+.card12:hover{
+    transform:rotate(30deg);
+    box-shadow: 5px -5px 10px 12px blue;
+    transition-duration:2s;
+}
+.card13{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    margin-left:80px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    background-image: url(./images/chef6.jpg);
+    background-size:100% 100%;
+}
+.card13:hover{
+    transform:rotate(-30deg);
+    box-shadow: 5px -5px 10px 12px blue;
+    transition-duration:2s;
+}
+.card14{
+    height:80%;
+    width:18%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    margin-left:70px;
+    margin-top:60px;
+    border-radius:10px;
+    border:1px solid black;
+    transition-duration:2s;
+    background-image: url(./images/chef7.jpg);
+    background-size:100% 100%;
+}
+.card14:hover{
+    transform:scale(.6);
+    box-shadow:5px -5px 10px 12px blue;
+    transition-duration:2s;
+}
+.card15{
+    height:90%;
+    width:21%;
+    float: left;
+    box-shadow:5px -5px 10px 12px gray;
+    border-radius:10px;
+    border:1px solid black;
+    margin-left:80px;
+    margin-top:40px;
+    transition-duration:2s;
+    background-image: url(./images/chef8.jpg);
+    background-size:100% 100%;
+}
+.card15:hover{
+  transform:scale(.85);
+  box-shadow:5px -5px 10px 12px blue;
+  transition-duration:2s;
+}
